@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Employee ID"
+            android:textColor="@color/black" />
+
+        <EditText
+            android:id="@+id/empid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Employee ID"
+            android:inputType="number"
+            android:maxLength="4"
+            android:textColor="@color/purple_700" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Employee Name"
+            android:textColor="@color/black" />
+
+        <EditText
+            android:id="@+id/empname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Employee Name"
+            android:textColor="@color/purple_700" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Employee Salary"
+            android:textColor="@color/black" />
+
+        <EditText
+            android:id="@+id/empsal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Employee Salary"
+            android:inputType="number"
+            android:maxLength="6"
+            android:textColor="@color/purple_700" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Employee Age"
+            android:textColor="@color/black" />
+
+        <EditText
+            android:id="@+id/empage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Employee Age"
+            android:inputType="number"
+            android:maxLength="2"
+            android:textColor="@color/purple_700" />
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button_update_create"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="Update"
+        android:textAllCaps="false" />
+
+</LinearLayout>

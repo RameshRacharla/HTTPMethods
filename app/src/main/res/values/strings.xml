@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">HTTPMethods</string>
+    <string name="errormessage">Try again later</string>
+</resources>
